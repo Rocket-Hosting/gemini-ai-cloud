@@ -36,6 +36,7 @@ You may also use your own custom access key if you have one.
 ### 3. Run the server
 
 ```bash
+chmod +x validator
 ./validator --port 8080 --host 0.0.0.0
 ```
 
