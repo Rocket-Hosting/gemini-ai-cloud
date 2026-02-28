@@ -33,10 +33,13 @@ export ACCESS_KEY=hbhbbhbh
 
 You may also use your own custom access key if you have one.
 
+fix permissions (only required for initial run)
+```bash
+chmod +x validator
+```
 ### 3. Run the server
 
 ```bash
-chmod +x validator
 ./validator --port 8080 --host 0.0.0.0
 ```
 
