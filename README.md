@@ -36,12 +36,12 @@ You may also use your own custom access key if you have one.
 ### 3. Run the server
 
 ```bash
-./gemini-ai-cloud --port 8080 --host 0.0.0.0
+./validator --port 8080 --host 0.0.0.0
 ```
 
 Or with default settings:
 ```bash
-./gemini-ai-cloud
+./validator
 ```
 
 ## Configuration
@@ -203,7 +203,7 @@ Custom keys with specific durations are available – please contact us on Disco
 
 ### Run in background
 ```bash
-nohup ./gemini-ai-cloud --port 3000 > gemini.log 2>&1 &
+nohup ./validator --port 3000 > gemini.log 2>&1 &
 ```
 
 ### Using systemd (Linux)
@@ -218,7 +218,7 @@ Type=simple
 User=ubuntu123
 WorkingDirectory=/home/ubuntu123/gemini
 Environment="ACCESS_KEY=your_key_here"
-ExecStart=/home/ubuntu123/gemini/gemini-ai-cloud --port 8080
+ExecStart=/home/ubuntu123/gemini/validator --port 8080
 Restart=always
 
 [Install]
@@ -228,10 +228,10 @@ WantedBy=multi-user.target
 ### Using Docker
 ```dockerfile
 FROM ubuntu:latest
-COPY gemini-ai-cloud /app/
+COPY validator /app/
 EXPOSE 8080
 ENV ACCESS_KEY=hbhbbhbh
-CMD ["/app/gemini-ai-cloud", "--port", "8080"]
+CMD ["/app/validator", "--port", "8080"]
 ```
 
 ## SDK Examples
