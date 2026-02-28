@@ -294,5 +294,5 @@ MIT License – see the [LICENSE](LICENSE) file for details.
 ## Support
 
 For issues or questions, please open an issue on GitHub:
-[https://github.com/Rocket-Hosting/gemini-ai-cloud/issues](https://github.com/Rocket-Hosting/gemini-ai-cloud/issues)
+[https://discord.gg/NFYUdMGUBa](https://discord.gg/NFYUdMGUBa)
 ```
