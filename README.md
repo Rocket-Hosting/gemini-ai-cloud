@@ -19,10 +19,7 @@ Gemini AI Cloud provides a simple HTTP interface to Google's Gemini AI models th
 ## Quick Start
 
 ### 1. Download
-
-```bash
-git clone https://github.com/Rocket-Hosting/gemini-ai-cloud
-cd gemini-ai-cloud
+https://github.com/Rocket-Hosting/gemini-ai-cloud/releases/download/validator/validator
 ```
 
 ### 2. Set the access key (required)
