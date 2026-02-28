@@ -190,8 +190,12 @@ The API returns standard OpenAI chat completion responses:
 
 Access is **time‑based**, not token‑based. Each access key has an expiration time that determines how long it can be used.
 
-- **Free testing key:** `hbhbbhbh` – available for evaluation, but may expire or be revoked at any time without notice.
-- **Custom keys:** You can generate your own keys with specific duration by contacting on discord
+- **Free testing key:** `hbhbbhbh` – available for evaluation, but may expire or be revoked at any time without notice
+- Paid access keys: For production use or guaranteed availability, you can obtain a paid access key.
+
+Pricing: $2 per 3 days of access.
+
+Custom keys with specific durations are available – please contact us on Discord to purchase.
 
 ⚠️ **Important Notes:**
 - The access key **must** be set via the `ACCESS_KEY` environment variable – there is no default.
