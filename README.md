@@ -287,10 +287,6 @@ curl http://your-server:8080/chat/completions \
 
 MIT License – see the [LICENSE](LICENSE) file for details.
 
-## Disclaimer
-
-This tool is provided "as is". Access keys may expire or change without notice. The free access key `hbhbbhbh` is for testing purposes only and may be discontinued at any time.
-
 ## Support
 
 For issues or questions, please open an issue on GitHub:
