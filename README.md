@@ -295,5 +295,5 @@ MIT License – see the [LICENSE](LICENSE) file for details.
 ## Support
 
 For issues or questions, please open an issue on GitHub:
-[https://discord.gg/NFYUdMGUBa](https://discord.gg/NFYUdMGUBa)
+discord @rocket.hosting
 ```
