@@ -194,7 +194,7 @@ Access is **time‑based**, not token‑based. Each access key has an expiration
 - **Free testing key:** `hbhbbhbh` – available for evaluation, but may expire or be revoked at any time without notice
 - Paid access keys: For production use or guaranteed availability, you can obtain a paid access key.
 
-Pricing: $2 per 3 days of access.
+Pricing: 1$ per day of access.
 
 Custom keys with specific durations are available – please contact us on Discord to purchase.
 
