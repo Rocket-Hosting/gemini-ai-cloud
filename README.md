@@ -77,8 +77,11 @@ All requests must include the access key in the `Authorization` header:
 ```bash
 curl -H "Authorization: Bearer not-required" \
 -H "Content-Type: application/json" \
--d '{"messages": [{"role": "user", "content": "Hello!"}]}' \
-http://your-server:8080/chat/completions
+-d '{
+  "model": "gpt-3.5-turbo",
+  "messages": [{"role": "user", "content": "Hello!"}]
+}' \
+http://your-server:port/chat/completions
 ```
 
 ### Available Models
