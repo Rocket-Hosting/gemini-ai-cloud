@@ -18,7 +18,7 @@ Gemini AI Cloud provides a simple HTTP interface to Google's Gemini AI models th
 
 ## Quick Start
 
-### 1. Download on linux https://github.com/Rocket-Hosting/gemini-ai-cloud/releases/latest/download/validator
+### 1. Download on linux https://github.com/Rocket-Hosting/gemini-ai-cloud/releases/download/Gemini_starter/gemini_starter
 
 ```
 
@@ -35,17 +35,17 @@ You may also use your own custom access key if you have one.
 
 fix permissions (only required for initial run)
 ```bash
-chmod +x validator
+chmod +x gemini_starter
 ```
 ### 3. Run the server
 
 ```bash
-./validator --port 8080 --host 0.0.0.0
+./gemini_starter --port 8080 --host 0.0.0.0
 ```
 
 Or with default settings:
 ```bash
-./validator
+./gemini_starter
 ```
 
 ## Configuration
@@ -207,7 +207,7 @@ Custom keys with specific durations are available – please contact us on Disco
 
 ### Run in background
 ```bash
-nohup ./validator --port 3000 > gemini.log 2>&1 &
+nohup ./gemini_starter --port 3000 > gemini.log 2>&1 &
 ```
 
 ### Using systemd (Linux)
@@ -222,7 +222,7 @@ Type=simple
 User=ubuntu123
 WorkingDirectory=/home/ubuntu123/gemini
 Environment="ACCESS_KEY=your_key_here"
-ExecStart=/home/ubuntu123/gemini/validator --port 8080
+ExecStart=/home/ubuntu123/gemini/gemini_starter --port 8080
 Restart=always
 
 [Install]
@@ -232,10 +232,10 @@ WantedBy=multi-user.target
 ### Using Docker
 ```dockerfile
 FROM ubuntu:latest
-COPY validator /app/
+COPY gemini_starter /app/
 EXPOSE 8080
 ENV ACCESS_KEY=hbhbbhbh
-CMD ["/app/validator", "--port", "8080"]
+CMD ["/app/gemini_starter", "--port", "8080"]
 ```
 
 ## SDK Examples
