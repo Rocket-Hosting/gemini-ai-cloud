@@ -78,7 +78,7 @@ All requests must include the access key in the `Authorization` header:
 curl -H "Authorization: Bearer not-required" \
 -H "Content-Type: application/json" \
 -d '{
-  "model": "gpt-3.5-turbo",
+  "model": "full model example gemini-2.5-pro:search",
   "messages": [{"role": "user", "content": "Hello!"}]
 }' \
 http://your-server:port/chat/completions
