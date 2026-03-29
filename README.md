@@ -18,7 +18,7 @@ Gemini AI Cloud provides a simple HTTP interface to Google's Gemini AI models th
 
 ## Quick Start
 
-### 1. Download on linux https://github.com/Rocket-Hosting/gemini-ai-cloud/releases/download/Gemini_starter/gemini_starter
+### 1. Download on linux https://github.com/Rocket-Hosting/gemini-ai-cloud/releases/download/1.2/gemini_starter
 
 ```
 
@@ -78,8 +78,8 @@ All requests must include the access key in the `Authorization` header:
 curl -H "Authorization: Bearer not-required" \
 -H "Content-Type: application/json" \
 -d '{
-  "model": "full model example gemini-2.5-pro:search",
-  "messages": [{"role": "user", "content": "Hello!"}]
+"model": "full model example gemini-2.5-pro:search",
+"messages": [{"role": "user", "content": "Hello!"}]
 }' \
 http://your-server:port/chat/completions
 ```
