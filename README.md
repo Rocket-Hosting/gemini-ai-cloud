@@ -25,10 +25,10 @@ Gemini AI Cloud provides a simple HTTP interface to Google's Gemini AI models th
 ### 2. Set the access key (required)
 
 The server requires an access key to validate requests.
-A free testing key `tttt` is available for evaluation. To use it, set:
+A free testing key `hahav` is available for evaluation. To use it, set:
 
 ```bash
-export ACCESS_KEY=tttt
+export ACCESS_KEY=hahav
 ```
 
 You may also use your own custom access key if you have one.
