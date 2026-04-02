@@ -291,9 +291,6 @@ curl http://your-server:8080/chat/completions \
 3. Monitor access logs for unusual activity.
 4. Set reasonable time limits for access keys.
 
-## License
-
-MIT License – see the [LICENSE](LICENSE) file for details.
 
 ## Support
 
