@@ -194,7 +194,7 @@ The API returns standard OpenAI chat completion responses:
 
 Access is **time‑based**, not token‑based. Each access key has an expiration time that determines how long it can be used.
 
-- **Free testing key:** `hbhbbhbh` – available for evaluation, but may expire or be revoked at any time without notice
+- **Free testing key:** `your access key` – available for evaluation, but may expire or be revoked at any time without notice
 - Paid access keys: For production use or guaranteed availability, you can obtain a paid access key.
 
 Pricing: 1$ per day of access.
@@ -237,7 +237,7 @@ WantedBy=multi-user.target
 FROM ubuntu:latest
 COPY gemini_starter /app/
 EXPOSE 8080
-ENV ACCESS_KEY=hbhbbhbh
+ENV ACCESS_KEY=your access key
 CMD ["/app/gemini_starter", "--port", "8080"]
 ```
 
