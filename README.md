@@ -234,7 +234,7 @@ WantedBy=multi-user.target
 
 ### Using Docker
 ```dockerfile
-FROM ubuntu:latest
+FROM ubuntu:24.04
 COPY gemini_starter /app/
 EXPOSE 8080
 ENV ACCESS_KEY=your access key
@@ -294,6 +294,5 @@ curl http://your-server:8080/chat/completions \
 
 ## Support
 
-For issues or questions, please open an issue on GitHub:
-discord @rocket.hosting
-```
+For issues or questions, please open an issue on GitHub
+[discord server](https://discord.gg/F6mBjR8Jnt)
