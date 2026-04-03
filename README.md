@@ -18,7 +18,7 @@ Gemini AI Cloud provides a simple HTTP interface to Google's Gemini AI models th
 
 ## Quick Start
 
-### 1. Download on linux https://github.com/Rocket-Hosting/gemini-ai-cloud/releases/download/1.2/gemini_starter
+### 1. Download on linux https://github.com/Rocket-Hosting/gemini-ai-cloud/releases/download/1.3/gemini_starter
 
 ```
 
@@ -91,23 +91,134 @@ GET /models
 ```
 
 **Example response:**
-```json
+```
 {
 "object": "list",
 "data": [
-{ "id": "gemini-3-pro-preview", "object": "model", "created": 1772277201285 },
-{ "id": "gemini-3-pro-preview:search", "object": "model", "created": 1772277201285 },
-{ "id": "gemini-3-flash-preview", "object": "model", "created": 1772277201285 },
-{ "id": "gemini-3-flash-preview:search", "object": "model", "created": 1772277201285 },
-{ "id": "gemini-2.5-flash", "object": "model", "created": 1772277201285 },
-{ "id": "gemini-2.5-flash:search", "object": "model", "created": 1772277201285 },
-{ "id": "gemini-2.5-flash-lite", "object": "model", "created": 1772277201285 },
-{ "id": "gemini-2.5-flash-lite:search", "object": "model", "created": 1772277201285 },
-{ "id": "gemini-2.5-pro", "object": "model", "created": 1772277201285 },
-{ "id": "gemini-2.5-pro:search", "object": "model", "created": 1772277201285 }
+{
+"id": "gemini-3-pro-preview",
+"object": "model",
+"created": 1775245267663
+},
+{
+"id": "gemini-3-pro-preview:search",
+"object": "model",
+"created": 1775245267663
+},
+{
+"id": "gemini-3.1-pro-preview",
+"object": "model",
+"created": 1775245267663
+},
+{
+"id": "gemini-3.1-pro-preview:search",
+"object": "model",
+"created": 1775245267663
+},
+{
+"id": "gemini-3-flash-preview",
+"object": "model",
+"created": 1775245267663
+},
+{
+"id": "gemini-3-flash-preview:search",
+"object": "model",
+"created": 1775245267663
+},
+{
+"id": "gemini-3.1-flash-lite-preview",
+"object": "model",
+"created": 1775245267663
+},
+{
+"id": "gemini-3.1-flash-lite-preview:search",
+"object": "model",
+"created": 1775245267663
+},
+{
+"id": "gemini-2.5-flash",
+"object": "model",
+"created": 1775245267663
+},
+{
+"id": "gemini-2.5-flash:search",
+"object": "model",
+"created": 1775245267663
+},
+{
+"id": "gemini-2.5-flash-lite",
+"object": "model",
+"created": 1775245267663
+},
+{
+"id": "gemini-2.5-flash-lite:search",
+"object": "model",
+"created": 1775245267663
+},
+{
+"id": "gemini-2.5-pro",
+"object": "model",
+"created": 1775245267663
+},
+{
+"id": "gemini-2.5-pro:search",
+"object": "model",
+"created": 1775245267663
+},
+{
+"id": "gemini-robotics-er-1.5-preview",
+"object": "model",
+"created": 1775245267663
+},
+{
+"id": "gemini-robotics-er-1.5-preview:search",
+"object": "model",
+"created": 1775245267663
+},
+{
+"id": "gemma-4-26b-a4b-it",
+"object": "model",
+"created": 1775245267663
+},
+{
+"id": "gemma-4-26b-a4b-it:search",
+"object": "model",
+"created": 1775245267663
+},
+{
+"id": "gemma-4-31b-it",
+"object": "model",
+"created": 1775245267663
+},
+{
+"id": "gemma-4-31b-it:search",
+"object": "model",
+"created": 1775245267663
+},
+{
+"id": "gemma-3-1b-it",
+"object": "model",
+"created": 1775245267663
+},
+{
+"id": "gemma-3-4b-it",
+"object": "model",
+"created": 1775245267663
+},
+{
+"id": "gemma-3-12b-it",
+"object": "model",
+"created": 1775245267663
+},
+{
+"id": "gemma-3-27b-it",
+"object": "model",
+"created": 1775245267663
+}
 ]
 }
 ```
+gemini-3.0-pro:preview with and without search was deprecated by google and uses gemini-3.1-pro-preview or with :search
 
 Models with the `:search` suffix automatically enable Google Search grounding.
 
