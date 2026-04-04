@@ -1,6 +1,6 @@
 ```markdown
 # Gemini AI Cloud
-
+[GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/Rocket-Hosting/gemini-ai-cloud/total?style=plastic)
 A lightweight OpenAI-compatible API proxy for Google's Gemini AI models with time-based access control.
 
 ## Overview
