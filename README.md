@@ -1,11 +1,11 @@
 ```markdown
 # Gemini AI Cloud
-[GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/Rocket-Hosting/gemini-ai-cloud/total?style=plastic)
+
 A lightweight OpenAI-compatible API proxy for Google's Gemini AI models with time-based access control.
 
 ## Overview
 
-Gemini AI Cloud provides a simple HTTP interface to Google's Gemini AI models that's fully compatible with OpenAI's API format. Access is controlled via access keys with time-based expiration. Perfect for sharing AI access with time-limited permissions.
+Gemini AI Cloud provides a AI HTTP interface to Google's Gemini AI models that's fully compatible with OpenAI's API format. Access is controlled via access keys with time-based expiration. Perfect for sharing AI access with time-limited permissions.
 
 ## Features
 
