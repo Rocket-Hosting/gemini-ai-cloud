@@ -8,8 +8,10 @@ A hosted OpenAI-compatible API for Google's Gemini abd Gemma AI models.
 - **API Key:** `sk-8xMIqGFuWezqJyEWFWG4Ow`
 - **Base URL:** `http://server2.api.nikkcocompany.store:4000/v1/chat/completions`
 - Currently has access to **all models** (same as paid keys)
+- ⚠️ **Free API keys can be deleted, edited, or changed at any time, any day — with or without notice.** They are not guaranteed to remain active or functional.
 - ⚠️ Model availability for free keys may change at any time, with or without notice
 - Updates will **always** be shared first in [Discord](https://discord.gg/F6mBjR8Jnt), and later posted on GitHub
+- 👉 For reliable, uninterrupted access, consider upgrading to a **paid API key**.
 
 👉 **Join the [Discord server](https://discord.gg/F6mBjR8Jnt)** to stay updated!
 
