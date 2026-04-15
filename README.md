@@ -1,6 +1,6 @@
 # Gemini AI Cloud
 
-A hosted OpenAI-compatible API for Google's Gemini AI models, powered by LiteLLM.
+A hosted OpenAI-compatible API for Google's Gemini abd Gemma AI models.
 
 ## 🚀 API Access
 
