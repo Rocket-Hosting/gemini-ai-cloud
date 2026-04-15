@@ -201,4 +201,4 @@ Standard OpenAI chat completion response:
 
 ## Support
 
-For issues or questions, join our [Discord server](https://discord.gg/F6mBjR8Jnt).
+For issues or questions, updates join our [Discord server](https://discord.gg/F6mBjR8Jnt).
